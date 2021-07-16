@@ -1,0 +1,1 @@
+FTP servisinden dosya indirme örneği.
