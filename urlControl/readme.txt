@@ -1,0 +1,1 @@
+URL adres kontrolü yapmaya sağlayan script
