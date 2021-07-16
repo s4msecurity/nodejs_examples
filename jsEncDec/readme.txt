@@ -1,0 +1,1 @@
+Encode ve Decode örneği ile değer verilip alınmasını sağlayan script
