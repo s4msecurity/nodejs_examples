@@ -1,0 +1,1 @@
+For döngüsü örneği kullanımı ve değeri ekrana yazdırma
