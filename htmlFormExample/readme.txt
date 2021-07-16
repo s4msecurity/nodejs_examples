@@ -1,0 +1,1 @@
+HTML formu ile veri gönderme alma işlemleri örneği.
