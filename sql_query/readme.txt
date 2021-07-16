@@ -1,0 +1,1 @@
+SQL Server bağlantısı ve veri çekme
