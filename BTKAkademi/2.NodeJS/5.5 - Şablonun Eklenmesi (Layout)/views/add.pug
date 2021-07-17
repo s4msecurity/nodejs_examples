@@ -1,0 +1,9 @@
+extends layout/main-layout.pug
+
+block content
+    .container
+      br
+      h6 Add Product
+      form( method='post')
+        input(type='text', value='Mesaj Gir', name='stokName')
+        input(type='submit', value='Ekle', name='stokSend')
