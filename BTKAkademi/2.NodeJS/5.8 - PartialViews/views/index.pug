@@ -1,0 +1,14 @@
+extends layout/main.pug
+
+include layout/includes/mixin.pug
+    //Bu kısımda mixin isimli dosyayı ekleyerek değerleri otomatik aldırmayı yaptık. Böylelikle her yeni sayfaya değerleri include edilebilir.
+
+block content
+    //dinmaikDeger ile doldurulan kısımlar üstte ki gibidir.
+    if dinamikIcreik.length > 0
+        //Resim var mı değer yokmu kotnrol etmeye yarayan bir örnek. dinmaikICerik içinde değerler varsa listele yoksa uyarı ver. Anlamında.
+        each dinamikDeger in dinamikIcreik
+            +mDinmaik(dinamikDeger)
+    else 
+        h1 Resim YOK
+    //dinmaikDeger içine dinamikIcerikten gelen değerleri alarak değerleri döndürmeye yaramaktadır. mixin döngüden aldığı değerleri kendi içinde tanımlanan taglara uygulamaktadır.

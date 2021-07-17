@@ -1,0 +1,15 @@
+extends layout/main.pug
+
+block content
+  h2 Resim Ekle
+  form(action='/', method='post')
+    label(for='fname') Picture About:
+    br
+    input#fname(type='text', name='fname', value='')
+    br
+    label(for='lname') Picture Path:
+    br
+    input#lname(type='text', name='lname', value='')
+    br
+    br
+    input(type='submit', value='Send')

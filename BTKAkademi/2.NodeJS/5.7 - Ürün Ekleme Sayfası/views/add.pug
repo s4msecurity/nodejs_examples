@@ -1,0 +1,12 @@
+extends layout/main-layout.pug
+
+block content
+    .container
+      br
+      h6 Add Product
+      form(method="post" action="/")
+        h6 Resim Açklama
+        input(type='text', value='', name='resimAciklama')
+        h6 Resim Adı
+        input(type='text', value='', name='resimAdi')
+        input(type='submit', value='Ekle', name='stokSend')
