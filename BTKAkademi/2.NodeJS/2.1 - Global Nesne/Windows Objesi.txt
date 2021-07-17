@@ -1,0 +1,4 @@
+Windows objesi 
+Tanımlanan değerler, windows nesnesine aktarılmaktadır.
+Örn: degisken = "samet"
+dediğimizde bu değişkene ait bilgileri windows nesnesi altında görebilmekteyiz.
