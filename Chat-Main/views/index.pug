@@ -1,8 +1,0 @@
-head
-  title Chat-Page
-div(style='height: 50%; overflow-y: scroll;')
-  each deger in dinamikIcerik
-    p #{deger.mesajIcerik}
-form(action='/', method='POST')
-  input(type="text" name='texMessage', style='width: 100%;')
-  input(type='submit', value='Send Message', name='sendBtn')
