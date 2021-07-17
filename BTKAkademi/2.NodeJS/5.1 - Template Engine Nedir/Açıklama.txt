@@ -1,0 +1,6 @@
+EJS
+Pug
+HandleBars
+
+Bunlar dynamic işlemlerde sayfaları dinamik oluşturmaya yaramaktadır.
+Bu eğitimde PUG kullanılarak yapılacaktır.
