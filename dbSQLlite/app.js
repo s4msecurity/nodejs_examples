@@ -1,3 +1,13 @@
-var server = require("./server")
+var server = require("./server") //input server.js file
+const readline = require('readline'); //input readline lib.
 
-server.srvGen("create table Personel ( id integer, ad text, soyad text) ")
+const rl = readline.createInterface({ //reading keyboard open
+    input: process.stdin,
+    output: process.stdout
+});
+
+
+rl.question("Input SQL Query ", (query) => { //keyboard take it input
+    server.srvGen(query) // query send for srvGen function on server.js
+    rl.close();
+});
