@@ -1,1 +1,1 @@
-Hazır Web sayfasını nodejs ile dışarı vererek çalıştırılması sağlandı.
+Hazır Web sayfasını nodejs ile dışarı vererek çalıştırılması örneği
