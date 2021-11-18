@@ -36,9 +36,6 @@ function indirilenDosya(url) {
 }
 
 
-//https://paket.atikeryazilim.com.tr/AtikERGridEBelge80.rar
-
-
 rl.question("Please, input url address: ", (answer) => {  
   indirilenDosya(answer)
 })
