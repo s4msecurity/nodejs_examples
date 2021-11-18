@@ -1,1 +1,1 @@
-For döngüsü örneği kullanımı ve değeri ekrana yazdırma
+exxample for loop and variable write to screen
