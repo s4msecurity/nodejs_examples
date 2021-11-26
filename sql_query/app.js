@@ -1,10 +1,10 @@
 const sql = require('mssql')
 const query=`select * from tblfatsb`;
 config = {
-    user: 'sa',
-    password: 'Axoft*2014',
-    server: '192.168.1.19:1071',
-    database: 'SAM2021',
+    user: '_UserName_',
+    password: '_Password_',
+    server: '_ServerAdres_',
+    database: '_DataBaseName_',
     options: {           
         encrypt: false        
     }
