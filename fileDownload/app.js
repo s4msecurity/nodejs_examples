@@ -12,7 +12,7 @@ function indirilenDosya(url) {
   (async () => {
     const downloader = new Downloader({
       url: url,
-      directory: "C:\\Users\\ssezgin\\Desktop\\learning\\fileDownload\\",
+      directory: "C:\\Users\\...\\",
       onProgress: function (percentage, chunk, remainingSize) {
         console.clear();
         console.log('%', percentage);
