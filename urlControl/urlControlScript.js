@@ -11,7 +11,7 @@ var iSayi, iUrl;
 
 rl.question("Input size url link type: ", function (iSayi) {
   for (i = 0; i <= iSayi; i++) {
-    iUrl = 'http://paket.atikeryazilim.com.tr/AtikERGridEBelge' + i + '.rar'
+    iUrl = 'http://www._enterUrlAdres/Adress' + i + '.rar'
     linkControl(iUrl)
   }
   if(i == iSayi){
