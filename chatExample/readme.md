@@ -4,4 +4,4 @@ NodeJS ile chat uygulaması örneği.
 Çalıştırmak için:
 indirdikten sonra cmd ile klasöre gidin.
 Ve "npm install" komutunu yazın.
-Daha sonrasında "node app.js" komutunu girin.
+Daha sonrasında "node index.js" komutunu girin.
