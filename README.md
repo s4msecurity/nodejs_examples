@@ -1,2 +1,2 @@
 # nodejsantrenmanlar
-NodeJS Antrenmanları Ve Örnekler
+NodeJS Examples And Available Scripts.
